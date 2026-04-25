@@ -1,0 +1,118 @@
+{
+    "contact":  {
+                    "email":  "angelocastilloperz@gmail.com",
+                    "linkedin":  "https://linkedin.com/in/angelocastillo",
+                    "medium":  "",
+                    "twitter":  null,
+                    "github":  "https://github.com/AngeloCastilloPerez"
+                },
+    "profile":  {
+                    "photo":  "",
+                    "name":  "Angelo Castillo",
+                    "badges":  [
+                                   "Python",
+                                   "FastAPI",
+                                   "React",
+                                   "TypeScript",
+                                   "AI/ML",
+                                   "Supabase"
+                               ],
+                    "description":  "Construyendo desde Moche, Peru — productos que escalan. Especializado en FastAPI, React y sistemas con IA.",
+                    "availableText":  "Disponible para proyectos",
+                    "stats":  {
+                                  "projects":  30,
+                                  "companies":  8,
+                                  "years":  5,
+                                  "tools":  12
+                              },
+                    "title":  "Full-Stack Engineer \u0026 AI Builder"
+                },
+    "clients":  [
+
+                ],
+    "template_id":  "aurora",
+    "projects":  [
+                     {
+                         "image":  "",
+                         "id":  "hero-platform",
+                         "githubUrl":  null,
+                         "category":  "SaaS / AI",
+                         "tags":  [
+                                      "FastAPI",
+                                      "React",
+                                      "Claude AI",
+                                      "Supabase"
+                                  ],
+                         "demoUrl":  "https://mattiu.hero.com.pe",
+                         "badge":  "Producción",
+                         "problem":  "Gestión manual y lenta.",
+                         "solution":  "SaaS + agente IA autónomo MATTIU.",
+                         "title":  "Hero Platform",
+                         "result":  "+80% eficiencia."
+                     },
+                     {
+                         "image":  "",
+                         "id":  "portfolio-saas",
+                         "githubUrl":  "https://github.com/AngeloCastilloPerez",
+                         "category":  "SaaS / Deploy",
+                         "tags":  [
+                                      "React",
+                                      "TypeScript",
+                                      "Vite",
+                                      "GitHub API"
+                                  ],
+                         "demoUrl":  null,
+                         "badge":  "En vivo",
+                         "problem":  "Portfolios tomaban días.",
+                         "solution":  "Wizard + deploy automático GitHub Pages.",
+                         "title":  "Portfolio SaaS",
+                         "result":  "Portfolio en minutos."
+                     }
+                 ],
+    "meta":  {
+                 "siteTitle":  "Angelo Castillo | Portfolio",
+                 "description":  "Full-Stack Engineer \u0026 AI Builder",
+                 "language":  "es"
+             },
+    "experience":  [
+                       {
+                           "badge":  "Founder",
+                           "isCurrent":  true,
+                           "links":  [
+
+                                     ],
+                           "skills":  [
+                                          "FastAPI",
+                                          "React",
+                                          "Claude AI",
+                                          "Supabase"
+                                      ],
+                           "company":  "Hero AGI",
+                           "location":  "Moche, Peru",
+                           "description":  "Construyo plataformas SaaS con IA para clientes en LATAM.",
+                           "companyKey":  "hero-agi",
+                           "role":  "Founder \u0026 Lead Engineer",
+                           "logo":  "",
+                           "roles":  [
+                                         {
+                                             "title":  "Founder \u0026 Lead Engineer",
+                                             "description":  "Construyo plataformas SaaS con IA.",
+                                             "period":  "2023 — Present",
+                                             "isCurrent":  true,
+                                             "skills":  [
+                                                            "FastAPI",
+                                                            "React",
+                                                            "Claude AI"
+                                                        ]
+                                         }
+                                     ],
+                           "impacts":  [
+                                           {
+                                               "icon":  "🚀",
+                                               "text":  "3 productos en producción"
+                                           }
+                                       ],
+                           "period":  "2023 — Present"
+                       }
+                   ]
+}
