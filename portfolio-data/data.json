@@ -1,0 +1,170 @@
+{
+    "template_id":  "aurora",
+    "profile":  {
+                    "name":  "Angelo Castillo",
+                    "title":  "Full-Stack Engineer \u0026 AI Builder",
+                    "description":  "Construyendo desde Moche, Peru — productos que escalan. Especializado en FastAPI, React y sistemas con IA.",
+                    "badges":  [
+                                   "Python",
+                                   "FastAPI",
+                                   "React",
+                                   "TypeScript",
+                                   "AI/ML",
+                                   "Supabase"
+                               ],
+                    "stats":  {
+                                  "years":  5,
+                                  "projects":  30,
+                                  "companies":  8,
+                                  "tools":  12
+                              },
+                    "availableText":  "Disponible para proyectos",
+                    "photo":  ""
+                },
+    "experience":  [
+                       {
+                           "company":  "Hero AGI",
+                           "companyKey":  "hero-agi",
+                           "role":  "Founder \u0026 Lead Engineer",
+                           "period":  "2023 — Present",
+                           "description":  "Construyo plataformas SaaS con IA para clientes en LATAM. Stack: Python, FastAPI, React, Claude Sonnet.",
+                           "isCurrent":  true,
+                           "location":  "Moche, Peru",
+                           "badge":  "Founder",
+                           "logo":  "",
+                           "skills":  [
+                                          "FastAPI",
+                                          "React",
+                                          "Claude AI",
+                                          "Supabase",
+                                          "Railway"
+                                      ],
+                           "impacts":  [
+                                           {
+                                               "icon":  "🚀",
+                                               "text":  "3 productos SaaS en producción"
+                                           },
+                                           {
+                                               "icon":  "🤖",
+                                               "text":  "Agente IA autónomo MATTIU"
+                                           },
+                                           {
+                                               "icon":  "📈",
+                                               "text":  "+80% eficiencia en gestión"
+                                           }
+                                       ],
+                           "links":  [
+
+                                     ],
+                           "roles":  [
+                                         {
+                                             "title":  "Founder \u0026 Lead Engineer",
+                                             "period":  "2023 — Present",
+                                             "description":  "Construyo plataformas SaaS con IA para clientes en LATAM.",
+                                             "skills":  [
+                                                            "FastAPI",
+                                                            "React",
+                                                            "Claude AI"
+                                                        ],
+                                             "isCurrent":  true
+                                         }
+                                     ]
+                       },
+                       {
+                           "company":  "Freelance",
+                           "companyKey":  "freelance",
+                           "role":  "Full Stack Developer",
+                           "period":  "2020 — 2023",
+                           "description":  "Proyectos de desarrollo web y automatización para clientes en LATAM y España.",
+                           "isCurrent":  false,
+                           "location":  "Remoto",
+                           "badge":  "Freelance",
+                           "logo":  "",
+                           "skills":  [
+                                          "Python",
+                                          "Django",
+                                          "React",
+                                          "PostgreSQL"
+                                      ],
+                           "impacts":  [
+                                           {
+                                               "icon":  "💼",
+                                               "text":  "+20 proyectos entregados"
+                                           },
+                                           {
+                                               "icon":  "🌎",
+                                               "text":  "Clientes en 5 países"
+                                           }
+                                       ],
+                           "links":  [
+
+                                     ],
+                           "roles":  [
+                                         {
+                                             "title":  "Full Stack Developer",
+                                             "period":  "2020 — 2023",
+                                             "description":  "Proyectos de desarrollo web para clientes en LATAM.",
+                                             "skills":  [
+                                                            "Python",
+                                                            "Django",
+                                                            "React"
+                                                        ],
+                                             "isCurrent":  false
+                                         }
+                                     ]
+                       }
+                   ],
+    "projects":  [
+                     {
+                         "id":  "hero-platform",
+                         "title":  "Hero Platform",
+                         "category":  "SaaS / AI",
+                         "badge":  "Producción",
+                         "image":  "",
+                         "problem":  "Gestión de proyectos y clientes era manual y lenta.",
+                         "solution":  "Plataforma SaaS con agente IA autónomo (MATTIU) integrado.",
+                         "result":  "+80% eficiencia en gestión de proyectos.",
+                         "tags":  [
+                                      "FastAPI",
+                                      "React",
+                                      "Claude AI",
+                                      "Supabase"
+                                  ],
+                         "demoUrl":  "https://mattiu.hero.com.pe",
+                         "githubUrl":  null
+                     },
+                     {
+                         "id":  "portfolio-saas",
+                         "title":  "Portfolio SaaS",
+                         "category":  "SaaS / Deploy",
+                         "badge":  "En vivo",
+                         "image":  "",
+                         "problem":  "Crear portfolios profesionales tomaba días.",
+                         "solution":  "Wizard + deploy automático en GitHub Pages y Vercel.",
+                         "result":  "Portfolio en minutos, no días.",
+                         "tags":  [
+                                      "React",
+                                      "TypeScript",
+                                      "Vite",
+                                      "GitHub API"
+                                  ],
+                         "demoUrl":  null,
+                         "githubUrl":  "https://github.com/AngeloCastilloPerez"
+                     }
+                 ],
+    "clients":  [
+
+                ],
+    "contact":  {
+                    "email":  "angelocastilloperz@gmail.com",
+                    "linkedin":  "https://linkedin.com/in/angelocastillo",
+                    "github":  "https://github.com/AngeloCastilloPerez",
+                    "twitter":  null,
+                    "medium":  ""
+                },
+    "meta":  {
+                 "siteTitle":  "Angelo Castillo | Portfolio",
+                 "description":  "Full-Stack Engineer \u0026 AI Builder",
+                 "language":  "es"
+             }
+}
