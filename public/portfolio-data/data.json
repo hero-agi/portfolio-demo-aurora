@@ -1,9 +1,13 @@
 {
+    "contact":  {
+                    "email":  "angelocastilloperz@outlook.es",
+                    "linkedin":  "https://www.linkedin.com/in/castilloperz/",
+                    "medium":  "angelocastilloperz",
+                    "twitter":  "https://twitter.com/AngeloCastilloJ",
+                    "github":  "https://github.com/AngeloCastilloPerez"
+                },
     "profile":  {
                     "name":  "Angelo Castillo",
-                    "title":  "Project Consultant | Data \u0026 Analytics | AI \u0026 Machine Learning",
-                    "photo":  "https://angelo-castillo-perez-github-io.vercel.app/assets/img/profile-img.png",
-                    "description":  "Diseño y lidero el desarrollo de soluciones tecnológicas basadas en Inteligencia Artificial que transforman cómo las empresas toman decisiones y ejecutan sus proyectos.",
                     "badges":  [
                                    "Power BI",
                                    "AI Agents",
@@ -12,13 +16,16 @@
                                    "FastAPI",
                                    "React"
                                ],
+                    "description":  "Diseño y lidero el desarrollo de soluciones tecnológicas basadas en Inteligencia Artificial que transforman cómo las empresas toman decisiones y ejecutan sus proyectos.",
+                    "availableText":  "Disponible para proyectos",
+                    "photo":  "https://angelo-castillo-perez-github-io.vercel.app/assets/img/profile-img.png",
+                    "title":  "Project Consultant | Data \u0026 Analytics | AI \u0026 Machine Learning",
                     "stats":  {
-                                  "years":  5,
                                   "projects":  16,
                                   "companies":  4,
+                                  "years":  5,
                                   "tools":  10
-                              },
-                    "availableText":  "Disponible para proyectos"
+                              }
                 },
     "clients":  [
                     {
@@ -54,23 +61,358 @@
                         "logo":  "https://angelo-castillo-perez-github-io.vercel.app/assets/img/clients/adium.png"
                     }
                 ],
+    "template_id":  "aurora",
+    "projects":  [
+                     {
+                         "image":  "https://angelo-castillo-perez-github-io.vercel.app/assets/img/portfolio/portfolio-16.gif",
+                         "id":  "proj-aunor",
+                         "demoUrl":  null,
+                         "category":  "powerbi",
+                         "tags":  [
+                                      "Power BI",
+                                      "DAX",
+                                      "SQL",
+                                      "ETL"
+                                  ],
+                         "githubUrl":  "https://github.com/AngeloCastilloPerez/Project---Aunor/tree/main",
+                         "badge":  "Power BI",
+                         "problem":  "KPIs de 8 departamentos dispersos en múltiples sistemas, sin visibilidad unificada",
+                         "solution":  "Dashboard ejecutivo centralizado con Power BI + ETL automatizado",
+                         "title":  "Dashboard Corporativo AUNOR",
+                         "result":  "60% reducción en tiempo de generación de reportes"
+                     },
+                     {
+                         "image":  "https://angelo-castillo-perez-github-io.vercel.app/assets/img/portfolio/portfolio-17.gif",
+                         "id":  "proj-astara",
+                         "demoUrl":  null,
+                         "category":  "powerbi",
+                         "tags":  [
+                                      "Power BI",
+                                      "DAX",
+                                      "Power Query",
+                                      "SQL"
+                                  ],
+                         "githubUrl":  "https://github.com/AngeloCastilloPerez/Proyecto-Astara/tree/main",
+                         "badge":  "Power BI",
+                         "problem":  "Datos de ventas y logística fragmentados sin capacidad de análisis en tiempo real",
+                         "solution":  "Dashboard integrado Power BI con modelo semántico unificado y actualización automática",
+                         "title":  "Dashboard Corporativo ASTARA",
+                         "result":  "Reducción de 3 días a 2 horas en ciclo de reporte mensual"
+                     },
+                     {
+                         "image":  "https://angelo-castillo-perez-github-io.vercel.app/assets/img/portfolio/portfolio-14.gif",
+                         "id":  "proj-yamaha",
+                         "demoUrl":  null,
+                         "category":  "architecture",
+                         "tags":  [
+                                      "Azure",
+                                      "Data Factory",
+                                      "Python",
+                                      "n8n"
+                                  ],
+                         "githubUrl":  "https://github.com/AngeloCastilloPerez/Proyecto---YAMAHA/tree/main",
+                         "badge":  "Architecture",
+                         "problem":  "Procesos manuales de tracking de ventas y servicio técnico sin trazabilidad",
+                         "solution":  "Sistema web de gestión con automatización de flujos via n8n y reportería integrada",
+                         "title":  "Data Factory Azure — Yamaha Motors",
+                         "result":  "80% reducción en tiempo de procesamiento de órdenes de servicio"
+                     },
+                     {
+                         "image":  "https://angelo-castillo-perez-github-io.vercel.app/assets/img/portfolio/portfolio-15.gif",
+                         "id":  "proj-enapu",
+                         "demoUrl":  null,
+                         "category":  "web",
+                         "tags":  [
+                                      "SharePoint",
+                                      "Azure",
+                                      "Power Automate",
+                                      "Microsoft 365"
+                                  ],
+                         "githubUrl":  "https://github.com/AngeloCastilloPerez/Front-end/tree/main",
+                         "badge":  "Web",
+                         "problem":  "Comunicación interna fragmentada y procesos documentales sin digitalizar",
+                         "solution":  "Portal intranet en SharePoint con workflows automatizados y gestión documental",
+                         "title":  "Intranet Corporativa ENAPU",
+                         "result":  "Digitalización de 100% de procesos documentales críticos"
+                     },
+                     {
+                         "image":  "https://angelo-castillo-perez-github-io.vercel.app/assets/img/portfolio/portfolio-minsur.gif",
+                         "id":  "proj-minsur",
+                         "demoUrl":  null,
+                         "category":  "architecture",
+                         "tags":  [
+                                      "Azure Data Factory",
+                                      "Databricks",
+                                      "PySpark",
+                                      "Power BI"
+                                  ],
+                         "githubUrl":  "https://github.com/AngeloCastilloPerez/Project-Minsur",
+                         "badge":  "Architecture",
+                         "problem":  "Pipeline ETL financiero on-premise en Jenkins sin escalabilidad ni gobernanza en la nube.",
+                         "solution":  "Migración a Azure con ADF, Databricks PySpark y ADLS Gen2 en arquitectura Medallion.",
+                         "title":  "Minsur ETL — Jenkins → Azure",
+                         "result":  "ETL automatizado SAP + SharePoint → Landing → Staging → Curated con consumo en Power BI."
+                     },
+                     {
+                         "image":  "https://angelo-castillo-perez-github-io.vercel.app/assets/img/portfolio/portfolio-sanmartin.gif",
+                         "id":  "proj-sanmartin",
+                         "demoUrl":  null,
+                         "category":  "architecture",
+                         "tags":  [
+                                      "Microsoft Fabric",
+                                      "SAP",
+                                      "PySpark",
+                                      "Power BI"
+                                  ],
+                         "githubUrl":  "https://github.com/AngeloCastilloPerez/Project-SanMartin",
+                         "badge":  "Architecture",
+                         "problem":  "Operaciones mineras en Excel sin integración SAP ni visibilidad de KPIs.",
+                         "solution":  "Arquitectura Medallion en Microsoft Fabric con integración SAP vía SOAP, PySpark.",
+                         "title":  "BI \u0026 Data Engineering — San Martín",
+                         "result":  "Pipeline automatizado SAP + SharePoint → Landing → Work Live con DirectQuery."
+                     },
+                     {
+                         "image":  "https://angelo-castillo-perez-github-io.vercel.app/assets/img/portfolio/portfolio-mattiu.gif",
+                         "id":  "proj-mattiu",
+                         "demoUrl":  null,
+                         "category":  "app",
+                         "tags":  [
+                                      "FastAPI",
+                                      "React",
+                                      "Claude AI",
+                                      "PostgreSQL"
+                                  ],
+                         "githubUrl":  null,
+                         "badge":  "App",
+                         "problem":  "Equipos sin acceso a agentes IA especializados ni automatización integrada.",
+                         "solution":  "SaaS multi-agente con módulos BI, PDF extraction, Kanban y Portfolio SaaS.",
+                         "title":  "MATTIU — Plataforma de Agentes IA",
+                         "result":  "Sistema end-to-end con auth JWT, PostgreSQL y agentes Claude y OpenAI."
+                     },
+                     {
+                         "image":  "https://angelo-castillo-perez-github-io.vercel.app/assets/img/portfolio/portfolio-1.gif",
+                         "id":  "proj-sales",
+                         "demoUrl":  null,
+                         "category":  "tableau",
+                         "tags":  [
+                                      "Tableau",
+                                      "SQL",
+                                      "ETL"
+                                  ],
+                         "githubUrl":  "https://github.com/AngeloCastilloPerez/Sales-Project-in-Tableau",
+                         "badge":  "Tableau",
+                         "problem":  "Datos de ventas dispersos sin análisis visual interactivo",
+                         "solution":  "Dashboard Tableau con filtros dinámicos y análisis de tendencias",
+                         "title":  "Sales Dashboard Interactivo",
+                         "result":  "Visualización completa del pipeline de ventas en tiempo real"
+                     },
+                     {
+                         "image":  "https://angelo-castillo-perez-github-io.vercel.app/assets/img/portfolio/portfolio-2.gif",
+                         "id":  "proj-london",
+                         "demoUrl":  null,
+                         "category":  "tableau",
+                         "tags":  [
+                                      "Tableau",
+                                      "Python",
+                                      "Open Data"
+                                  ],
+                         "githubUrl":  "https://github.com/AngeloCastilloPerez/LondonBikeRides",
+                         "badge":  "Tableau",
+                         "problem":  "Datos de uso de bicicletas sin análisis de patrones ni factores climáticos",
+                         "solution":  "Dashboard con análisis de demanda por hora, clima y estación del año",
+                         "title":  "London Bikes Analysis",
+                         "result":  "Identificación de picos de uso para optimización del servicio"
+                     },
+                     {
+                         "image":  "https://angelo-castillo-perez-github-io.vercel.app/assets/img/portfolio/portfolio-3.gif",
+                         "id":  "proj-netflix",
+                         "demoUrl":  null,
+                         "category":  "tableau",
+                         "tags":  [
+                                      "Tableau",
+                                      "Python",
+                                      "Data Viz"
+                                  ],
+                         "githubUrl":  "https://github.com/AngeloCastilloPerez/Netflix-Project",
+                         "badge":  "Tableau",
+                         "problem":  "Catálogo sin análisis de distribución por género ni tendencias",
+                         "solution":  "Dashboard de análisis de catálogo con filtros por país, año y tipo",
+                         "title":  "Netflix Content Analysis",
+                         "result":  "Insights claros sobre estrategia de contenido global de Netflix"
+                     },
+                     {
+                         "image":  "https://angelo-castillo-perez-github-io.vercel.app/assets/img/portfolio/portfolio-4.gif",
+                         "id":  "proj-startups",
+                         "demoUrl":  null,
+                         "category":  "tableau",
+                         "tags":  [
+                                      "Tableau",
+                                      "Python",
+                                      "Open Data"
+                                  ],
+                         "githubUrl":  "https://github.com/AngeloCastilloPerez/Tableau-Startups",
+                         "badge":  "Tableau",
+                         "problem":  "Datos del ecosistema startup sin mapa de inversión ni sectores dominantes",
+                         "solution":  "Análisis visual con segmentación por industria, país y funding",
+                         "title":  "Startups Ecosystem Analysis",
+                         "result":  "Mapa completo del ecosistema global de startups unicornio"
+                     },
+                     {
+                         "image":  "https://angelo-castillo-perez-github-io.vercel.app/assets/img/portfolio/portfolio-6.gif",
+                         "id":  "proj-yugioh",
+                         "demoUrl":  null,
+                         "category":  "powerbi",
+                         "tags":  [
+                                      "Power BI",
+                                      "Python",
+                                      "Web Scraping"
+                                  ],
+                         "githubUrl":  "https://github.com/AngeloCastilloPerez/Project-YuGiHo",
+                         "badge":  "Power BI",
+                         "problem":  "Información dispersa y difícil de explorar por características.",
+                         "solution":  "Pipeline Python + modelo Power BI para análisis exploratorio.",
+                         "title":  "Dashboard Catálogo Yu-Gi-Oh!",
+                         "result":  "Vista interactiva para segmentar cartas por múltiples dimensiones."
+                     },
+                     {
+                         "image":  "https://angelo-castillo-perez-github-io.vercel.app/assets/img/portfolio/portfolio-7.gif",
+                         "id":  "proj-co2",
+                         "demoUrl":  null,
+                         "category":  "powerbi",
+                         "tags":  [
+                                      "Power BI",
+                                      "DAX",
+                                      "Open Data"
+                                  ],
+                         "githubUrl":  "https://github.com/AngeloCastilloPerez/Project_Co2",
+                         "badge":  "Power BI",
+                         "problem":  "Datos de emisiones globales sin visualización comparativa accesible",
+                         "solution":  "Mapa interactivo global con análisis histórico desde 1750",
+                         "title":  "Análisis Global de Emisiones CO2",
+                         "result":  "Dashboard público usado como recurso educativo"
+                     },
+                     {
+                         "image":  "https://angelo-castillo-perez-github-io.vercel.app/assets/img/portfolio/portfolio-8.gif",
+                         "id":  "proj-desechos",
+                         "demoUrl":  null,
+                         "category":  "powerbi",
+                         "tags":  [
+                                      "Power BI",
+                                      "Python",
+                                      "Geodatos"
+                                  ],
+                         "githubUrl":  "https://github.com/AngeloCastilloPerez/Project-Desechos",
+                         "badge":  "Power BI",
+                         "problem":  "Datos de residuos sin segmentación por zona ni patrones",
+                         "solution":  "Análisis de patrones con segmentación geográfica y temporal",
+                         "title":  "Análisis de Desechos Domésticos",
+                         "result":  "Identificó zonas críticas para optimizar rutas de recolección"
+                     },
+                     {
+                         "image":  "https://angelo-castillo-perez-github-io.vercel.app/assets/img/portfolio/portfolio-11.gif",
+                         "id":  "proj-consumidor",
+                         "demoUrl":  "https://app.powerbi.com/view?r=eyJrIjoiNTk5OTkxOWItNWE2MS00OGRkLThkZmEtM2M5ZjE0OWUzYWEzIiwidCI6ImRiMDRlYjM0LTczMmEtNDE4YS05MDI1LTVhZDk5ZTk1MTY0OCJ9",
+                         "category":  "powerbi",
+                         "tags":  [
+                                      "Power BI",
+                                      "Open Data",
+                                      "DAX"
+                                  ],
+                         "githubUrl":  null,
+                         "badge":  "Power BI",
+                         "problem":  "50,000+ reclamos sin análisis ni clasificación sistemática pública",
+                         "solution":  "Dashboard público con clasificación por rubro, región y año",
+                         "title":  "Defensa del Consumidor Argentina",
+                         "result":  "Dashboard live accesible para ciudadanos y entidades públicas"
+                     },
+                     {
+                         "image":  "https://angelo-castillo-perez-github-io.vercel.app/assets/img/portfolio/portfolio-12.gif",
+                         "id":  "proj-oportunidades",
+                         "demoUrl":  "https://app.powerbi.com/view?r=eyJrIjoiOWM4MjViZDAtMjVjZS00MmViLTlkYjctYTczMzFmYzY5YmMwIiwidCI6ImRiMDRlYjM0LTczMmEtNDE4YS05MDI1LTVhZDk5ZTk1MTY0OCJ9",
+                         "category":  "powerbi",
+                         "tags":  [
+                                      "Power BI",
+                                      "DAX",
+                                      "CRM"
+                                  ],
+                         "githubUrl":  null,
+                         "badge":  "Power BI",
+                         "problem":  "Pipeline de ventas sin visibilidad de márgenes ni proyección de cierre",
+                         "solution":  "Modelo de análisis con scoring de oportunidades y proyección de ingresos",
+                         "title":  "Análisis de Oportunidades y Márgenes",
+                         "result":  "+25% mejora en márgenes al priorizar oportunidades de alto valor"
+                     },
+                     {
+                         "image":  "https://angelo-castillo-perez-github-io.vercel.app/assets/img/portfolio/portfolio-13.gif",
+                         "id":  "proj-tractchun",
+                         "demoUrl":  null,
+                         "category":  "powerbi",
+                         "tags":  [
+                                      "Power BI",
+                                      "ITSM",
+                                      "KPIs"
+                                  ],
+                         "githubUrl":  null,
+                         "badge":  "Power BI",
+                         "problem":  "Gestión de tickets IT manual sin métricas de resolución ni SLA",
+                         "solution":  "Dashboard de SLA, tiempos de respuesta y carga por agente",
+                         "title":  "Sistema de Tickets Tractchun",
+                         "result":  "40% reducción en tiempo promedio de resolución"
+                     },
+                     {
+                         "image":  "https://angelo-castillo-perez-github-io.vercel.app/assets/img/portfolio/portfolio-18.gif",
+                         "id":  "proj-petcare",
+                         "demoUrl":  null,
+                         "category":  "app",
+                         "tags":  [
+                                      "UI/UX",
+                                      "React",
+                                      "Mobile"
+                                  ],
+                         "githubUrl":  "https://github.com/AngeloCastilloPerez/Pet-Care-App",
+                         "badge":  "App",
+                         "problem":  "Sin herramienta unificada para gestión de salud de mascotas",
+                         "solution":  "App móvil con seguimiento de vacunas, citas y recordatorios",
+                         "title":  "Aplicación de Cuidado de Mascotas",
+                         "result":  "UI/UX completo con flujo de usuario optimizado end-to-end"
+                     },
+                     {
+                         "image":  "https://angelo-castillo-perez-github-io.vercel.app/assets/img/portfolio/portfolio-10.gif",
+                         "id":  "proj-co2-portal",
+                         "demoUrl":  "https://sites.google.com/view/emissions-co2/home?pli=1",
+                         "category":  "web",
+                         "tags":  [
+                                      "HTML/CSS",
+                                      "Google Sites",
+                                      "Data Viz"
+                                  ],
+                         "githubUrl":  null,
+                         "badge":  "Web",
+                         "problem":  "Datos ambientales complejos sin acceso público intuitivo",
+                         "solution":  "Portal web educativo con visualizaciones integradas y datos abiertos",
+                         "title":  "Portal Web Emisiones CO2",
+                         "result":  "Recurso público con múltiples visualizaciones interactivas"
+                     }
+                 ],
+    "meta":  {
+                 "siteTitle":  "Angelo Castillo | Portfolio",
+                 "description":  "Project Consultant especializado en Data Analytics, Business Intelligence, Power BI y IA",
+                 "language":  "es"
+             },
     "experience":  [
                        {
-                           "company":  "Grupo Rocío",
                            "companyKey":  "gruporocio",
-                           "logo":  "https://angelo-castillo-perez-github-io.vercel.app/assets/img/clients/gruporocio.png",
-                           "badge":  "Grupo empresarial agro-industrial",
-                           "period":  "2021 — 2022",
-                           "location":  "La Libertad, Perú",
                            "isCurrent":  false,
-                           "links":  [
+                           "badge":  "Grupo empresarial agro-industrial",
+                           "impacts":  [
 
-                                     ],
+                                       ],
+                           "period":  "2021 — 2022",
                            "roles":  [
                                          {
                                              "title":  "Auxiliar de Procesos",
+                                             "description":  "Apoyo en la gestión de procesos operativos y administrativos. Primeros pasos en análisis de datos y eficiencia de procesos dentro del área de producción.",
                                              "period":  "Abr 2021 — Sep 2021",
-                                             "description":  "Apoyo en gestión de procesos operativos. Primeros pasos en análisis de datos.",
                                              "skills":  [
                                                             "Eficiencia de procesos",
                                                             "Análisis de información"
@@ -78,72 +420,27 @@
                                          },
                                          {
                                              "title":  "Asistente de Producción",
+                                             "description":  "Gestión de proyectos de mejora continua junto al equipo administrativo. Fortalecimiento de habilidades en Macros VBA, Business Intelligence y análisis de datos operativos.",
                                              "period":  "Sep 2021 — Abr 2022",
-                                             "description":  "Gestión de proyectos de mejora continua. Macros VBA, Business Intelligence.",
                                              "skills":  [
                                                             "Macros VBA",
                                                             "Business Intelligence",
-                                                            "Excel"
+                                                            "Excel",
+                                                            "Mejora continua"
                                                         ]
                                          }
                                      ],
-                           "impacts":  [
+                           "company":  "Grupo Rocío",
+                           "location":  "La Libertad, Perú",
+                           "links":  [
 
-                                       ]
+                                     ],
+                           "logo":  "https://angelo-castillo-perez-github-io.vercel.app/assets/img/clients/gruporocio.png"
                        },
                        {
-                           "company":  "Dígito",
                            "companyKey":  "digito",
-                           "logo":  "https://angelo-castillo-perez-github-io.vercel.app/assets/img/clients/digito.png",
-                           "badge":  "Empresa de tecnología",
-                           "period":  "2023 — Presente",
-                           "location":  "Lima, Perú",
                            "isCurrent":  true,
-                           "roles":  [
-                                         {
-                                             "title":  "Analista de BI",
-                                             "period":  "2023",
-                                             "description":  "Dashboards ejecutivos Power BI. ETL automatizado para AUNOR y ASTARA.",
-                                             "skills":  [
-                                                            "Power BI",
-                                                            "DAX",
-                                                            "SQL",
-                                                            "ETL"
-                                                        ]
-                                         },
-                                         {
-                                             "title":  "Analista de Datos",
-                                             "period":  "2023 — 2024",
-                                             "description":  "Análisis avanzado con Python y Tableau. KPIs estratégicos a nivel gerencial.",
-                                             "skills":  [
-                                                            "Python",
-                                                            "Tableau",
-                                                            "Pandas"
-                                                        ]
-                                         },
-                                         {
-                                             "title":  "Analista de Proyectos de TI",
-                                             "period":  "2024 — 2025",
-                                             "description":  "Proyectos de transformación digital. Azure Data Factory. Intranets corporativas.",
-                                             "skills":  [
-                                                            "Azure",
-                                                            "SharePoint",
-                                                            "n8n"
-                                                        ]
-                                         },
-                                         {
-                                             "title":  "Líder de Proyectos",
-                                             "period":  "2025 — Presente",
-                                             "isCurrent":  true,
-                                             "description":  "Consultoría en Data \u0026 Analytics, IA y automatización. Yamaha Motors Perú.",
-                                             "skills":  [
-                                                            "Consultoría",
-                                                            "IA Generativa",
-                                                            "Make",
-                                                            "LLMs"
-                                                        ]
-                                         }
-                                     ],
+                           "badge":  "Empresa de tecnología",
                            "impacts":  [
                                            {
                                                "icon":  "🏢",
@@ -158,170 +455,65 @@
                                                "text":  "Equipos de hasta 5 personas liderados"
                                            }
                                        ],
+                           "period":  "2023 — Presente",
+                           "roles":  [
+                                         {
+                                             "title":  "Analista de BI",
+                                             "description":  "Diseño e implementación de dashboards ejecutivos con Power BI. Construcción de modelos de datos y automatización de reportes para clientes corporativos como AUNOR y ASTARA.",
+                                             "period":  "2023",
+                                             "skills":  [
+                                                            "Power BI",
+                                                            "DAX",
+                                                            "SQL",
+                                                            "ETL"
+                                                        ]
+                                         },
+                                         {
+                                             "title":  "Analista de Datos",
+                                             "description":  "Análisis avanzado con Python y Tableau. ETL y modelado de datos para múltiples clientes. Implementación de KPIs estratégicos a nivel gerencial y visualizaciones de alto impacto.",
+                                             "period":  "2023 — 2024",
+                                             "skills":  [
+                                                            "Python",
+                                                            "Tableau",
+                                                            "Pandas",
+                                                            "Excel"
+                                                        ]
+                                         },
+                                         {
+                                             "title":  "Analista de Proyectos de TI",
+                                             "description":  "Liderazgo de proyectos de transformación digital. Integración de arquitecturas de datos en Azure Data Factory. Desarrollo de intranets corporativas (ENAPU) y portales web para clientes enterprise.",
+                                             "period":  "2024 — 2025",
+                                             "skills":  [
+                                                            "Azure",
+                                                            "SharePoint",
+                                                            "Gestión de proyectos",
+                                                            "n8n"
+                                                        ]
+                                         },
+                                         {
+                                             "title":  "Líder de Proyectos",
+                                             "description":  "Consultoría estratégica en Data \u0026 Analytics, IA y automatización de procesos. Liderazgo de equipos multidisciplinarios y entrega de soluciones end-to-end para clientes como Yamaha Motors Perú.",
+                                             "skills":  [
+                                                            "Consultoría",
+                                                            "IA Generativa",
+                                                            "Make",
+                                                            "LLMs",
+                                                            "Liderazgo"
+                                                        ],
+                                             "period":  "2025 — Presente",
+                                             "isCurrent":  true
+                                         }
+                                     ],
+                           "company":  "Dígito",
+                           "location":  "Lima, Perú",
                            "links":  [
                                          {
-                                             "icon":  "linkedin",
                                              "label":  "LinkedIn",
+                                             "icon":  "linkedin",
                                              "url":  "https://www.linkedin.com/in/castilloperz/"
                                          }
-                                     ]
+                                     ],
+                           "logo":  "https://angelo-castillo-perez-github-io.vercel.app/assets/img/clients/digito.png"
                        }
-                   ],
-    "projects":  [
-                     {
-                         "id":  "proj-aunor",
-                         "title":  "Dashboard Corporativo AUNOR",
-                         "category":  "powerbi",
-                         "image":  "https://angelo-castillo-perez-github-io.vercel.app/assets/img/portfolio/portfolio-16.gif",
-                         "badge":  "Power BI",
-                         "problem":  "KPIs de 8 departamentos dispersos.",
-                         "solution":  "Dashboard Power BI + ETL automatizado.",
-                         "result":  "60% reducción en tiempo de reportes.",
-                         "tags":  [
-                                      "Power BI",
-                                      "DAX",
-                                      "SQL",
-                                      "ETL"
-                                  ],
-                         "githubUrl":  "https://github.com/AngeloCastilloPerez/Project---Aunor/tree/main",
-                         "demoUrl":  null
-                     },
-                     {
-                         "id":  "proj-astara",
-                         "title":  "Dashboard Corporativo ASTARA",
-                         "category":  "powerbi",
-                         "image":  "https://angelo-castillo-perez-github-io.vercel.app/assets/img/portfolio/portfolio-17.gif",
-                         "badge":  "Power BI",
-                         "problem":  "Datos de ventas y logística fragmentados.",
-                         "solution":  "Dashboard Power BI con modelo semántico unificado.",
-                         "result":  "De 3 días a 2 horas en reporte mensual.",
-                         "tags":  [
-                                      "Power BI",
-                                      "DAX",
-                                      "Power Query",
-                                      "SQL"
-                                  ],
-                         "githubUrl":  "https://github.com/AngeloCastilloPerez/Proyecto-Astara/tree/main",
-                         "demoUrl":  null
-                     },
-                     {
-                         "id":  "proj-yamaha",
-                         "title":  "Data Factory Azure — Yamaha Motors",
-                         "category":  "architecture",
-                         "image":  "https://angelo-castillo-perez-github-io.vercel.app/assets/img/portfolio/portfolio-14.gif",
-                         "badge":  "Architecture",
-                         "problem":  "ETL manual sin trazabilidad.",
-                         "solution":  "Azure ADF + automatización n8n.",
-                         "result":  "80% reducción en tiempo de procesamiento.",
-                         "tags":  [
-                                      "Azure",
-                                      "Data Factory",
-                                      "Python",
-                                      "n8n"
-                                  ],
-                         "githubUrl":  "https://github.com/AngeloCastilloPerez/Proyecto---YAMAHA/tree/main",
-                         "demoUrl":  null
-                     },
-                     {
-                         "id":  "proj-enapu",
-                         "title":  "Intranet Corporativa ENAPU",
-                         "category":  "web",
-                         "image":  "https://angelo-castillo-perez-github-io.vercel.app/assets/img/portfolio/portfolio-15.gif",
-                         "badge":  "Web",
-                         "problem":  "Comunicación interna fragmentada.",
-                         "solution":  "Portal SharePoint con workflows automatizados.",
-                         "result":  "100% digitalización de procesos críticos.",
-                         "tags":  [
-                                      "SharePoint",
-                                      "Azure",
-                                      "Power Automate"
-                                  ],
-                         "githubUrl":  "https://github.com/AngeloCastilloPerez/Front-end/tree/main",
-                         "demoUrl":  null
-                     },
-                     {
-                         "id":  "proj-minsur",
-                         "title":  "Minsur ETL — Jenkins → Azure",
-                         "category":  "architecture",
-                         "image":  "https://angelo-castillo-perez-github-io.vercel.app/assets/img/portfolio/portfolio-minsur.gif",
-                         "badge":  "Architecture",
-                         "problem":  "Pipeline ETL on-premise sin escalabilidad.",
-                         "solution":  "Migración Azure ADF + Databricks arquitectura Medallion.",
-                         "result":  "ETL automatizado con consumo directo Power BI.",
-                         "tags":  [
-                                      "Azure Data Factory",
-                                      "Databricks",
-                                      "PySpark",
-                                      "Power BI"
-                                  ],
-                         "githubUrl":  "https://github.com/AngeloCastilloPerez/Project-Minsur",
-                         "demoUrl":  null
-                     },
-                     {
-                         "id":  "proj-sanmartin",
-                         "title":  "BI \u0026 Data Engineering — San Martín",
-                         "category":  "architecture",
-                         "image":  "https://angelo-castillo-perez-github-io.vercel.app/assets/img/portfolio/portfolio-sanmartin.gif",
-                         "badge":  "Architecture",
-                         "problem":  "Operaciones mineras en Excel sin integración SAP.",
-                         "solution":  "Arquitectura Medallion MS Fabric + SAP + PySpark.",
-                         "result":  "Pipeline automatizado para reportes mineros.",
-                         "tags":  [
-                                      "Microsoft Fabric",
-                                      "SAP",
-                                      "PySpark",
-                                      "Power BI"
-                                  ],
-                         "githubUrl":  "https://github.com/AngeloCastilloPerez/Project-SanMartin",
-                         "demoUrl":  null
-                     },
-                     {
-                         "id":  "proj-mattiu",
-                         "title":  "MATTIU — Plataforma de Agentes IA",
-                         "category":  "app",
-                         "image":  "https://angelo-castillo-perez-github-io.vercel.app/assets/img/portfolio/portfolio-mattiu.gif",
-                         "badge":  "App",
-                         "problem":  "Sin acceso a agentes IA especializados integrados.",
-                         "solution":  "SaaS multi-agente con módulos de BI, PDF, Kanban.",
-                         "result":  "Sistema end-to-end con Claude y OpenAI.",
-                         "tags":  [
-                                      "FastAPI",
-                                      "React",
-                                      "Claude AI",
-                                      "PostgreSQL"
-                                  ],
-                         "githubUrl":  null,
-                         "demoUrl":  null
-                     },
-                     {
-                         "id":  "proj-petcare",
-                         "title":  "Aplicación de Cuidado de Mascotas",
-                         "category":  "app",
-                         "image":  "https://angelo-castillo-perez-github-io.vercel.app/assets/img/portfolio/portfolio-18.gif",
-                         "badge":  "App",
-                         "problem":  "Sin herramienta unificada para salud de mascotas.",
-                         "solution":  "App móvil con vacunas, citas y recordatorios.",
-                         "result":  "UI/UX completo end-to-end.",
-                         "tags":  [
-                                      "UI/UX",
-                                      "React",
-                                      "Mobile"
-                                  ],
-                         "githubUrl":  "https://github.com/AngeloCastilloPerez/Pet-Care-App",
-                         "demoUrl":  null
-                     }
-                 ],
-    "contact":  {
-                    "email":  "angelocastilloperz@outlook.es",
-                    "linkedin":  "https://www.linkedin.com/in/castilloperz/",
-                    "github":  "https://github.com/AngeloCastilloPerez",
-                    "twitter":  "https://twitter.com/AngeloCastilloJ",
-                    "medium":  "angelocastilloperz"
-                },
-    "meta":  {
-                 "siteTitle":  "Angelo Castillo | Portfolio",
-                 "description":  "Project Consultant especializado en Data Analytics, BI, Power BI e IA",
-                 "language":  "es"
-             },
-    "template_id":  "aurora"
+                   ]
 }
